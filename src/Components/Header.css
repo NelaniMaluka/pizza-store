@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(1, 119, 119);
+}
+
+header {
+  width: 100%;
+  height: 110px;
+}
+.logo-container {
+  width: max-content;
+  margin-top: 25px;
+  margin-left: 50px;
+  position: absolute;
+  height: 65px;
+}
+.logo {
+  height: 65px;
+  width: 60px;
+  position: absolute;
+}
+.name-container {
+  margin-top: 10px;
+}
+.name {
+  font-size: 40px;
+  padding-left: 80px;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  color: darkred;
+}
+nav {
+  display: ;
+}
+nav li {
+  display: table-row;
+  flex-direction: row;
+}
+nav a {
+  text-decoration: none;
+  font-size: 16px;
+}
