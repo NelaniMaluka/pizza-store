@@ -31,13 +31,29 @@ header {
   color: darkred;
 }
 nav {
-  display: ;
+  display: flex;
+  justify-content: end;
+  margin-top: 48px;
+  position: absolute;
+  width: 100%;
 }
 nav li {
   display: table-row;
   flex-direction: row;
+  display: inline-block;
+  margin-left: 22px;
+}
+nav li:last-child {
+  margin-right: 80px;
+}
+nav li:hover {
+  text-decoration: underline;
 }
 nav a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 19px;
+}
+nav li .chosen-nav-page {
+  color: darkred;
+  text-decoration: underline;
 }
