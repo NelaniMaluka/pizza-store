@@ -16,29 +16,21 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <a href=" " className=" ">
-              Home
-            </a>
+            <a href=" ">Home</a>
           </li>
           <li>
-            <a href=" " className=" ">
+            <a href=" " className="chosen-nav-page ">
               Menu
             </a>
           </li>
           <li>
-            <a href=" " className=" ">
-              Drinks
-            </a>
+            <a href=" ">Drinks</a>
           </li>
           <li>
-            <a href=" " className=" ">
-              About Us-Events
-            </a>
+            <a href=" ">About Us-Events</a>
           </li>
           <li>
-            <a href=" " className=" ">
-              Contact Us
-            </a>
+            <a href=" ">Contact Us</a>
           </li>
         </ul>
       </nav>
