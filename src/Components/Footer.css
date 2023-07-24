@@ -1,9 +1,48 @@
 footer * {
+  margin: 0;
+  padding: 0;
   color: white;
   text-align: center;
-}
-footer * {
   background-color: rgb(1, 119, 119);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+footer {
   height: 80px;
   width: 100%;
+}
+.newsletter {
+  height: max-content;
+  width: 100%;
+  margin: auto;
+}
+.newsletter input {
+  width: 250px;
+  height: 30px;
+  border-color: white;
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  display: inline-block;
+  margin-right: 6px;
+}
+input::placeholder {
+  color: #ffffff9e;
+}
+.newsletter button {
+  border-radius: 8px;
+  width: 150px;
+  height: 30px;
+  margin-left: 6px;
+  background-color: rgb(223, 165, 16);
+  border: none;
+}
+.newsletter button:hover {
+  text-decoration: underline;
+}
+p {
+  padding: 14px;
+}
+h4 {
+  padding: 14px;
 }
